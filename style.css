@@ -1,0 +1,20 @@
+:root {
+    --canvas-size: 400px;
+}
+
+body {
+    background-color: darkslategray;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height:var(--canvas-size);
+    width: var(--canvas-size);
+}
