@@ -5,6 +5,7 @@
 body {
     background-color: darkslategray;
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     margin: 0;
     justify-content: center;
@@ -17,4 +18,11 @@ body {
     flex-wrap: wrap;
     height:var(--canvas-size);
     width: var(--canvas-size);
+}
+
+button {
+    font-size: 18px;
+    background-color: rgb(106, 179, 179);
+    margin: 12px;
+    padding: 10px;
 }
